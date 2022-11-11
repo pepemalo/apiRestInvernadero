@@ -1,0 +1,14 @@
+
+Instalar entorno virtual:
+    pip install virtualenv
+
+Crear entorno virtual:
+    virtualenv venv
+
+Activar entorno virtual:
+    ./venv/Scripts/activate
+
+Comprobar que esta en el entorno virtual (venv)
+y
+Instalar requirements.txt:
+    pip install -r requirements.txt
