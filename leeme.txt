@@ -15,3 +15,5 @@ Instalar requirements.txt:
 
 Cambiar la direccion IP por la cual va a salir la conxion:
     host="0.0.0.0"  --> renplazar por la IP a usar.
+
+Crear la Carpeta logs.
