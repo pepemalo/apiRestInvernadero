@@ -1,9 +1,9 @@
 # Importing the libraries that are needed for the program to run.
+from werkzeug.security import generate_password_hash, check_password_hash
 from flask import Flask, jsonify, request, Response, current_app
 from flask_pymongo import PyMongo
-from bson import json_util
 from datetime import datetime
-from werkzeug.security import generate_password_hash, check_password_hash
+from bson import json_util
 import logging
 from bson.objectid import ObjectId
 
